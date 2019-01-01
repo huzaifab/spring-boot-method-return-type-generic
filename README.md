@@ -13,7 +13,7 @@ provide port no using command line while running
 - >java -jar target\spring-boot-method-return-type-generic-0.1.0.jar --server.port=8080
 
 How to run?
-- from Browser or using Postman Client request url http://localhost:8080/generic/1
+- from Browser or using Postman Client request(GET) url http://localhost:8080/generic/1
 - it will show output as :
   {
     "name": "Train",
@@ -21,7 +21,7 @@ How to run?
     "seats": 42
   }
 
-- request url http://localhost:8080/generic/4
+- GET request url http://localhost:8080/generic/4
 - it will show output as :
   [
     {
